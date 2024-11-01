@@ -1,0 +1,16 @@
+{
+  "name": "Blog Preview Card | Frontend Mentor",
+  "short_name": "Blog Preview Card",
+  "description": "Frontend Mentor Challenges | Blog Preview Card",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4d04e",
+  "theme_color": "#f4d04e"
+}

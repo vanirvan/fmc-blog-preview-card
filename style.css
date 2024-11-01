@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --yellow: #f4d04e;
+  --black: #111111;
+  --shade: #6b6b6b;
+}
+
+.card-shadow {
+  box-shadow: 8px 8px black;
+}
+
+.font-figtree {
+  font-family: "Figtree", sans-serif;
+}
+
+.bg-project-yellow {
+  background-color: var(--yellow);
+}
+
+.hover\:\text-project-yellow:hover {
+  color: var(--yellow);
+}
+
+.text-project-black {
+  color: var(--black);
+}
+
+.text-project-shade {
+  color: var(--shade);
+}
+
+.border-project-black {
+  border-color: var(--black);
+}

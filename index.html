@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog Preview Card | Frontend Mentor</title>
+    <meta
+      name="descrition"
+      content="Frontend Mentor Challenges | Blog Preview Card"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Blog Preview Card | Frontend Mentor" />
+    <meta
+      property="og:description"
+      content="Frontend Mentor Challenges | Blog Preview Card"
+    />
+    <meta property="og:image" content="/cover.png" />
+    <meta
+      property="og:url"
+      content="https://fmc-blog-preview-card-vanirvan.vercel.app/"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blog Preview Card | Frontend Mentor" />
+    <meta
+      name="twitter:description"
+      content="Frontend Mentor Challenges | Blog Preview Card"
+    />
+    <meta
+      name="twitter:image"
+      content="https://fmc-blog-preview-card-vanirvan.vercel.app//cover.png"
+    />
+
+    <link
+      rel="canonical"
+      href="https://fmc-blog-preview-card-vanirvan.vercel.app/"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="author" content="Vanirvan" />
+    <link rel="manifest" href="manifest.json" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main
+      class="bg-project-yellow font-figtree relative flex h-full max-h-svh min-h-svh w-full flex-col items-center justify-center overflow-hidden p-6"
+    >
+      <div
+        id="card"
+        class="card-shadow flex h-auto w-full max-w-96 flex-col gap-6 rounded-[20px] border bg-white p-6"
+      >
+        <img
+          id="card-img"
+          src="card-img.png"
+          alt="blog preview"
+          class="bg-project-yellow h-auto w-full rounded-[10px]"
+        />
+        <div id="content" class="flex flex-col gap-3">
+          <div
+            id="category"
+            class="bg-project-yellow w-max rounded-[4px] px-3 py-1"
+          >
+            <span class="text-project-black text-sm font-bold">Learning</span>
+          </div>
+          <span class="text-project-black text-sm">Published 21 Dec 2023</span>
+          <span
+            class="text-project-black hover:text-project-yellow text-2xl font-extrabold transition-colors duration-200 hover:cursor-pointer"
+            >HTML & CSS foundations</span
+          >
+          <span class="text-project-shade font-medium"
+            >These languages are the backbone of every website, defining
+            structure, content, and presentation.</span
+          >
+        </div>
+        <div id="author" class="flex items-center gap-3">
+          <img src="userpic.png" alt="user pic" class="h-8 w-8 rounded-full" />
+          <span class="text-project-black text-sm font-extrabold"
+            >Greg Hooper</span
+          >
+        </div>
+      </div>
+    </main>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
